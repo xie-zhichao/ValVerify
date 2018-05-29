@@ -2,9 +2,9 @@
 
  Element-ui表单值校验插件：valVerify
  ## options: 
- *  - tipHeight: Number, tip提示的高度
+ - tipHeight: Number, tip提示的高度
  ## return: {success: success, msg: msg}
- ** 需用于绑定model的vue组件 **
+ **需用于绑定model的vue组件**
 
  ## 指令：v-valv
  - name：表单字段名称
@@ -14,8 +14,10 @@
  - auto：表单值变化时，是否自动校验。否则手工按表单校验
 
 Example：
+``` html
 <el-input 
 v-model="input"
 v-valv="{name:'input', group:'form1', rule:'require'}" 
 placeholder="请输入内容"></el-input>
+```
 
